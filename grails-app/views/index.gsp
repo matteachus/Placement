@@ -72,9 +72,19 @@
 					margin-top: 0;
 				}
 			}
+                        #nav ul li { list-style: none; text-decoration: none; }
 		</style>
 	</head>
 	<body>
-                <h1>Hello</h1>
+                <h1>Placements Application</h1>
+                <p>Please choose from one of the following links below;</p>
+                <div id="nav">
+                <ul>
+<li><a href="../Placement/student/">View Students</a></li>
+<li><a href="../Placement/placement/">View Placement</a></li>
+<li><a href="../Placement/status/">View Status</a></li>
+<li><a href="../Placement/application/">View Application</a></li>
+                </ul>
+                </div>
 	</body>
 </html>
